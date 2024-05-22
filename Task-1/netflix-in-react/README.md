@@ -1,70 +1,49 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# [Netflix Website](https://ikhodabande.github.io/netflix-in-react/)
 
-In the project directory, you can run:
 
-### `npm start`
+<img src="https://github.com/ikhodabande/ak-portfolio-2024/blob/main/src/assestes/projects/netflix.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Netflix Website is a React-based web application that allows users to browse and discover movies across different categories. It utilizes the Movie Database (TMDb) API to fetch movie data and provides a user-friendly interface for seamless navigation. The website is fully responsive, making it accessible on various devices, and it incorporates React Router for smooth page transitions. Tailwind CSS is used for styling, ensuring a modern and visually appealing design.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Browse Movies:** Explore a wide range of movies across different categories such as Popular, Top Rated, Now Playing, and Upcoming.
+- **Search Functionality:** Search for specific movies by title, genre, or keywords.
+- **Movie Details:** View detailed information about each movie, including synopsis, release date, cast, and ratings.
+- **Responsive Design:** Enjoy a seamless browsing experience on all devices, including desktops, tablets, and mobile phones.
+- **React Router Integration:** Navigate between pages smoothly with the help of React Router, maintaining a single-page application (SPA) structure.
+- **Tailwind CSS Styling:** Utilize Tailwind CSS for efficient and responsive styling, ensuring a modern and visually appealing user interface.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To set up and run the Netflix Website locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Install dependencies using `npm install`.
+4. Obtain an API key from [TMDb](https://www.themoviedb.org/documentation/api) and replace `'YOUR_API_KEY'` in `src/config.js` with your actual API key.
+5. Start the development server with `npm start`.
+6. Access the website at `http://localhost:3000` in your web browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- React.js
+- React Router
+- Tailwind CSS
+- The Movie Database (TMDb) API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Amir Mohammad Khodabande](https://github.com/yourusername)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is licensed under the [MIT License](LICENSE).
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© [Amir Mohammad Khodabande](https://github.com/yourusername) 2024
