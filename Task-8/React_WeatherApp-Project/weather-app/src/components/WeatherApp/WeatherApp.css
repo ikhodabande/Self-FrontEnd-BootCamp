@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;
+}
+
+body {
+  background: #222;
+
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg,#5064ea,#5b548a);
+  color: #fff;
+  margin: 75px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+.topBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  background:#ebfffc ;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.search button img:hover {
+ width: 19px;
+}
+
+.search button img {
+  width: 16px;
+}
+
+.weather{
+  flex-direction: column;
+}
+
+.weather-icone {
+  width: 170px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weather h1 {
+  font-size: 80px;
+  font-weight: 500;
+
+}
+
+.weather h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.humidity-rate, .wind {
+  font-size:20px ;
+  margin-top: -6;
+}
+
+.weather {
+  display: none;
+}
+
+.error {
+  text-align: left;
+  margin-top: 15px;
+  margin-right: 20%;
+  margin-left: 0;
+  font-size: 14px;
+  display: none;
+}
+
+
+@media screen and (max-width : 400px) {
+  .col img{
+    width: 1.5rem;
+  }
+  .col p {
+    font-size: 1rem;
+  }
+  .weather h1  {
+    font-size: 4.5rem;
+  }
+  .weather h2  {
+    font-size: 3rem;
+    padding-top: 1rem;
+  }
+
+  .card input {
+    max-width: 16rem;
+  }
+
+  .details {
+    padding: 0 10px;
+  }
+  .card {
+    width: 90%;
+    max-width: 470px;
+    margin: 50px auto 0;
+    padding: 30px 35px;
+  }
+}
+@media screen and (max-width : 370px) {
+  .col img{
+    width: 1.5rem;
+  }
+  .col p {
+    font-size: .9rem;
+  }
+  .weather h1  {
+    font-size: 4.5rem;
+  }
+  .weather h2  {
+    font-size: 3rem;
+    padding-top: 1rem;
+  }
+
+  .card input {
+    max-width: 14rem;
+  }
+
+
+  .details {
+    padding: 0 10px;
+  }
+  .card {
+    width: 90%;
+    max-width: 470px;
+    margin: 50px auto 0;
+    padding: 30px 35px;
+  }
+
+}
