@@ -1,5 +1,6 @@
-# 🚀 React Website with Tailwand CSS
+# 🚀 [React Website with Tailwand CSS]()
 
+<img src="https://github.com/ikhodabande/ak-portfolio-2024/blob/main/src/assestes/projects/rent.png">
 
 Short description or tagline about your project.
 
